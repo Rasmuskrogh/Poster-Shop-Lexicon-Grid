@@ -1,0 +1,19 @@
+header {
+  background-image: url(poster.png);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  aspect-ratio: 4/2;
+}
+
+.card-wrapper {
+  padding: 5% 10% 0% 10%;
+}
+
+.card {
+  margin: 3rem 0.5rem;
+}
+
+.card img {
+  width: 100%;
+}
