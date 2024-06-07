@@ -1,0 +1,171 @@
+header {
+  background-color: #3de07e;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  aspect-ratio: 4/2;
+  justify-content: space-between;
+}
+
+/* .nav-image {
+  align-self: flex-start;
+} */
+
+header h1 {
+  /*  align-self: center; */
+  font-size: 10vw;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  align-self: center;
+}
+
+.ninjahead {
+  /* align-self: center; */
+  width: 50%;
+  margin: -1px;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  justify-self: center;
+  align-self: end;
+}
+
+main {
+  padding: 5% 10%;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100%;
+}
+
+main h2 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.card {
+  margin: 3rem 0.5rem;
+  /* display: flex;
+    flex-direction: column; */
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem 0.5rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.card button {
+  background-color: red;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.7rem 0.7rem;
+  color: white;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.table-section {
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.table-section span {
+  margin-bottom: 0.5rem;
+}
+
+.table-section hr {
+  grid-column: 1 / 4;
+}
+
+#total-price {
+  grid-column: 3 / 4;
+}
+
+.product {
+  justify-self: flex-start;
+  align-self: center;
+}
+
+#product-overview {
+  font-size: 13px;
+}
+
+.amount {
+  justify-self: center;
+  align-self: center;
+}
+
+#amount-overview {
+  font-size: 13px;
+  padding-left: 1.8rem;
+}
+
+.price {
+  justify-self: end;
+  align-self: center;
+  padding: 0 1rem 0 0;
+}
+
+#price-overview {
+  font-size: 13px;
+  padding-right: 2.8rem;
+}
+
+@media screen and (max-width: 825px) {
+  .card h3 {
+    font-size: 1.5rem;
+  }
+  .main-wrapper h2 {
+    font-size: 2.5rem;
+  }
+
+  .card {
+    margin: 1rem 0.5rem;
+  }
+
+  .main-wrapper {
+    padding-top: 2%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card h3 {
+    font-size: 1.2rem;
+  }
+
+  .card button {
+    padding: 0.3rem;
+  }
+
+  .main-wrapper h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .card h3 {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .card button {
+    font-size: 0.6rem;
+    margin-left: 0.4rem;
+  }
+
+  .main-wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .main-wrapper {
+    padding-top: 1rem;
+  }
+}
