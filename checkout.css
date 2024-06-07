@@ -145,7 +145,7 @@ main h2 {
     padding: 0.3rem;
   }
 
-  .main-wrapper h2 {
+  main > h2 {
     font-size: 2rem;
   }
 }
@@ -161,7 +161,7 @@ main h2 {
     margin-left: 0.4rem;
   }
 
-  .main-wrapper h2 {
+  main > h2 {
     font-size: 1.5rem;
   }
 
