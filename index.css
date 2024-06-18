@@ -71,7 +71,7 @@ header {
 .card-bigger {
   /* height: 10rem; */
   width: 27.25rem;
-  grid-template-rows: 477px 245px;
+  grid-template-rows: 436px 245px;
   background-color: white;
 
   color: black;
